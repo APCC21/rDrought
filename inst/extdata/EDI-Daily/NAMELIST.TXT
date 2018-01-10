@@ -1,0 +1,9 @@
+&IOFILE 
+ IFILE = 'input.txt',
+ OFILE = 'output.txt' /
+# Set input file (precipitation data) & output file (AWRI & EDI data)
+
+&CalibPeriod
+ Msyr = 1981,
+ Meyr = 2010 /
+# Set calibration period (It is recommended to set 30 years, climatological period)
